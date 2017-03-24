@@ -1,3 +1,4 @@
+# coding=utf-8
 import os
 import sys
 
@@ -10,7 +11,7 @@ from pymongo import MongoClient
 f = open('mongo_replica_set.yaml')
 replica_set_configuration = yaml.safe_load(f)
 f.close()
-print('WARN: Your replicaSet configuration file is ', file=sys.stderr)
+print('WARN: Your replicaSet configuration file is ')
 print(yaml.dump(replica_set_configuration))
 print()
 # yesOrNo = input('Are you sure about this configuration? [Y/N]').lower()
