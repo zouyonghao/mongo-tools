@@ -1,0 +1,22 @@
+replicaSet:
+  - ip: 'localhost'
+    port: 23
+    username: 'root'
+    password: '123'
+    mongoPort: 27017
+#  - ip: 192.168.3.190
+#    port: 27017
+#  - ip: 192.168.3.191
+#    port: 27017
+#  - ip: 192.168.3.192
+#    port: 27017
+
+localPath: 'a local path'
+
+remotePath: '/home/zyh/mongo.tgz'
+
+localConfigurationPath: 'mongo_replica_set.yaml'
+
+remotePath: '/home/zyh/mongo.tgz'
+
+fileName: 'mongo.tgz'

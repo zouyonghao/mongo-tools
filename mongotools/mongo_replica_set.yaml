@@ -1,0 +1,16 @@
+systemLog:
+    verbosity: 0
+    destination: file
+    path: "/var/log/mongodb/mongodb.log"
+    logAppend: true
+storage:
+    engine: wiredTiger
+    directoryPerDB: true
+    dbPath: '/var/data/mongo'
+    journal:
+        enabled: true
+replication:
+    oplogSizeMB: 3000
+    replSetName: cmbSet
+operationProfiling:
+    mode: slowOp
