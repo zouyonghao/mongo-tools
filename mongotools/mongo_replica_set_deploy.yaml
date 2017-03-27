@@ -17,6 +17,4 @@ remotePath: '/home/zyh/mongo.tgz'
 
 localConfigurationPath: 'mongo_replica_set.yaml'
 
-remotePath: '/home/zyh/mongo.tgz'
-
 fileName: 'mongo.tgz'
